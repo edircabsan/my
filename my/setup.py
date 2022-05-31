@@ -5,13 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='my',  
-     version='0.3',
+     version='0.4',
      author="Edircabsan",
      author_email="astner-br@gmail.com",
      description="A test package",
      long_description=long_description,
      long_description_content_type="text/markdown",
      url="https://github.com/edircabsan/my",
+     packages=['my'],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
