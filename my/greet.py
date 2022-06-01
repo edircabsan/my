@@ -1,2 +1,2 @@
 def say_hello(name):
-    print(F"Hello {name} from my v0.6")
+    print(F"Hello {name} from my v0.7")
